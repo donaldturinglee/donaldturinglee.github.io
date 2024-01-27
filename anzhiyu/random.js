@@ -1,0 +1,3 @@
+var posts=["2024/01/07/computer_networking/","2023/12/12/cpp/","2023/12/21/design_patterns/","2023/12/16/docker/","2023/12/18/dsa/","2023/12/18/gdb/","2024/01/10/ghidra/","2023/12/18/ipc/","2023/12/13/linux/","2023/12/24/lua/","2023/12/18/makefile/","2023/01/15/message_queueing/","2023/12/13/network_programming/","2023/01/15/nginx/","2023/12/13/ood/","2023/12/14/practical_cpp/","2023/01/15/redis/","2024/01/06/regex/","2023/12/21/shell/","2023/12/21/system_design/","2023/12/24/tdd/","2024/01/01/todo/","2024/01/06/interview/computer_networking/","2024/01/06/interview/cpp/"];function toRandomPost(){
+    pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
+  };
